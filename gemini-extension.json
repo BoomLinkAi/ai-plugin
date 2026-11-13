@@ -1,0 +1,22 @@
+{
+  "name": "boomlink-ai-plugin",
+  "version": "1.0.0",
+  "description": "Create, edit, preview and publish Boomlink websites directly from Gemini CLI.",
+  "mcpServers": {
+    "boomlink-ai-plugin": {
+      "command": "sh",
+      "args": [
+        "-c",
+        "exec npx mcp-remote@latest \"${BOOMLINK_AI_PLUGIN_MCP_URL:-https://boomlink.ai/api/v1/chatgpt-app}\""
+      ]
+    }
+  },
+  "contextFileName": "GEMINI.md",
+  "settings": [
+    {
+      "name": "Boomlink MCP URL",
+      "description": "Boomlink MCP endpoint URL.",
+      "envVar": "BOOMLINK_AI_PLUGIN_MCP_URL"
+    }
+  ]
+}

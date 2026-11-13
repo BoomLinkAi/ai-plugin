@@ -1,0 +1,11 @@
+interface:
+  display_name: 'Publish Website'
+  short_description: 'Publish approved changes to a live site'
+  default_prompt: 'Use $publish-website to publish my approved homepage changes.'
+dependencies:
+  tools:
+    - type: 'mcp'
+      value: 'boomlink'
+      description: 'Boomlink website builder'
+      transport: 'streamable_http'
+      url: 'https://boomlink.ai/api/v1/chatgpt-app'

@@ -1,0 +1,11 @@
+interface:
+  display_name: 'Frontend Design'
+  short_description: 'Give pages a distinctive, on-brand design'
+  default_prompt: 'Use $frontend-design to make my homepage look more polished and on-brand. Do not publish.'
+dependencies:
+  tools:
+    - type: 'mcp'
+      value: 'boomlink'
+      description: 'Boomlink website builder'
+      transport: 'streamable_http'
+      url: 'https://boomlink.ai/api/v1/chatgpt-app'

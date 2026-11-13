@@ -1,0 +1,11 @@
+interface:
+  display_name: 'SEO Setup'
+  short_description: 'Improve search and AI search visibility'
+  default_prompt: 'Use $seo-setup to check my site titles, descriptions, and schema markup. Do not publish.'
+dependencies:
+  tools:
+    - type: 'mcp'
+      value: 'boomlink'
+      description: 'Boomlink website builder'
+      transport: 'streamable_http'
+      url: 'https://boomlink.ai/api/v1/chatgpt-app'

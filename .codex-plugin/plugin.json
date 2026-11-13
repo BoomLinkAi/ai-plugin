@@ -1,0 +1,41 @@
+{
+  "name": "boomlink-ai-plugin",
+  "version": "1.0.0",
+  "description": "Boomlink AI plugin",
+  "repository": "https://github.com/BoomLinkAi/ai-plugin",
+  "author": {
+    "name": "Agimon Pty Ltd",
+    "url": "https://boomlink.ai"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ai-plugin",
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini",
+    "mcp",
+    "website-builder"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Boomlink",
+    "shortDescription": "Build and publish websites from Codex",
+    "longDescription": "Boomlink is a plugin-and-template site platform for building working websites with ChatGPT or Claude, with hosting and a built-in database. Create a site from a template, edit it in draft sessions, preview and publish from Codex.",
+    "developerName": "Agimon Pty Ltd",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Show me the available Boomlink website templates",
+      "Show me my Boomlink websites and what to do next",
+      "Help me publish my Boomlink site"
+    ],
+    "brandColor": "#FA003F",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.svg"
+  },
+  "mcpServers": "./.mcp.json"
+}

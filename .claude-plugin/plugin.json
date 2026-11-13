@@ -1,0 +1,22 @@
+{
+  "name": "boomlink-ai-plugin",
+  "version": "1.0.0",
+  "description": "Create, edit, preview and publish Boomlink websites directly from Claude Code.",
+  "author": {
+    "name": "Agimon Pty Ltd",
+    "url": "https://boomlink.ai"
+  },
+  "homepage": "https://boomlink.ai",
+  "privacyPolicyUrl": "https://boomlink.ai/privacy",
+  "repository": "https://github.com/BoomLinkAi/ai-plugin",
+  "license": "MIT",
+  "keywords": [
+    "ai-plugin",
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini",
+    "mcp",
+    "website-builder"
+  ]
+}

@@ -1,0 +1,11 @@
+interface:
+  display_name: 'Create Website'
+  short_description: 'Create a new site draft from a template'
+  default_prompt: 'Use $create-website to create a portfolio site draft for my design studio.'
+dependencies:
+  tools:
+    - type: 'mcp'
+      value: 'boomlink'
+      description: 'Boomlink website builder'
+      transport: 'streamable_http'
+      url: 'https://boomlink.ai/api/v1/chatgpt-app'

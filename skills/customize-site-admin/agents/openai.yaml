@@ -1,0 +1,11 @@
+interface:
+  display_name: 'Customize Site Admin'
+  short_description: 'Build a private admin panel for your site'
+  default_prompt: 'Use $customize-site-admin to show me the current admin panel for my site and what I can change.'
+dependencies:
+  tools:
+    - type: 'mcp'
+      value: 'boomlink'
+      description: 'Boomlink website builder'
+      transport: 'streamable_http'
+      url: 'https://boomlink.ai/api/v1/chatgpt-app'

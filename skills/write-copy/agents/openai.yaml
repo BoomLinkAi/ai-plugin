@@ -1,0 +1,11 @@
+interface:
+  display_name: 'Write Copy'
+  short_description: 'Write copy that turns visitors into customers'
+  default_prompt: 'Use $write-copy to rewrite my homepage headline and call to action. Do not publish.'
+dependencies:
+  tools:
+    - type: 'mcp'
+      value: 'boomlink'
+      description: 'Boomlink website builder'
+      transport: 'streamable_http'
+      url: 'https://boomlink.ai/api/v1/chatgpt-app'

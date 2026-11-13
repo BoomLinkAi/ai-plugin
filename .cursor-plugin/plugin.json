@@ -1,0 +1,21 @@
+{
+  "name": "boomlink-ai-plugin",
+  "displayName": "Boomlink",
+  "version": "1.0.0",
+  "description": "Create, edit, preview and publish Boomlink websites directly from Cursor.",
+  "author": {
+    "name": "Agimon Pty Ltd",
+    "url": "https://boomlink.ai"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ai-plugin",
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini",
+    "mcp",
+    "website-builder"
+  ],
+  "logo": "assets/logo.svg"
+}

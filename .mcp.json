@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "boomlink": {
+      "type": "http",
+      "url": "https://boomlink.ai/api/v1/chatgpt-app"
+    }
+  }
+}

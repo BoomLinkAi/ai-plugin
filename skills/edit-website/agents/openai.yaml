@@ -1,0 +1,11 @@
+interface:
+  display_name: 'Edit Website'
+  short_description: 'Change an existing site and preview it'
+  default_prompt: 'Use $edit-website to update the homepage headline on my Boomlink site.'
+dependencies:
+  tools:
+    - type: 'mcp'
+      value: 'boomlink'
+      description: 'Boomlink website builder'
+      transport: 'streamable_http'
+      url: 'https://boomlink.ai/api/v1/chatgpt-app'

@@ -1,0 +1,11 @@
+interface:
+  display_name: 'Optimize Page'
+  short_description: 'Find and fix what stops visitors converting'
+  default_prompt: 'Use $optimize-page to review my landing page and suggest the highest-impact fixes.'
+dependencies:
+  tools:
+    - type: 'mcp'
+      value: 'boomlink'
+      description: 'Boomlink website builder'
+      transport: 'streamable_http'
+      url: 'https://boomlink.ai/api/v1/chatgpt-app'
